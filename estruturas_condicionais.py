@@ -92,3 +92,15 @@ else:
         print("Buena papito, se esforzo bastante")
     else:
         print(f"como siempre, yo no se que valores le he ensenado")    
+
+
+
+
+#If Ternario ---------------------------------------------
+
+
+senha = "123"
+senha_digitada_cliente = input('Digita sua senha: ')
+
+status = "approved" if senha_digitada_cliente == senha else "Denied"
+print(f"Your login attempt has been {status}")
