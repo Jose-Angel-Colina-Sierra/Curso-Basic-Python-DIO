@@ -38,3 +38,26 @@ while opcao != 0:
         sys.exit("Opcao nao disponivel")
 else:
     print("Obrigado por utilizar nosso sistema")
+
+
+#break - Corta o lazo da execucao se uma logica for atendida --------------------------
+
+while True:
+    numero = int(input("informe un numero: "))
+
+    if numero == 10:
+        break
+
+#exemplo 2 break
+
+for numero in range(100):
+    if numero == 99:
+        break
+    print(numero, end=" ")
+
+#Continue - desviar de alguma situaao especifica do bucle -----------------------------------
+
+for numero in range(27):
+    if numero == 23:
+        continue
+    print(numero, end=" ")
