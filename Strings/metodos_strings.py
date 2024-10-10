@@ -31,6 +31,8 @@ print(curso3.center(10, "#")) #-> se nao informar nenhum caracter ele adiciona u
 
 print((curso3.center(10, "#")))
 
+menu = "menu"
+
 for letra in menu:
     print(letra, end=""     )
 

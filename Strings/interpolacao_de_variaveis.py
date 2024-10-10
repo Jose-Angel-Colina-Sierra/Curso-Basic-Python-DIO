@@ -1,6 +1,5 @@
 # %
 
-
 nome = "Guilherme"
 idade = 28
 profissao = "Progamador"
@@ -20,7 +19,7 @@ nome))
 print("Ola, me chamo {nome}. Eu tenho {idade} anos de idade, trabalho como {profissao} e estou matriculado no curso de {linguagem}. ".format(nome=nome, idade=idade, profissao=profissao,
 linguagem=linguagem))
 
-print("Ola, me chamo {nome}. Eu tenho {idade} anos de idade, trabalho como {profissao} e estou matriculado no curso de {linguagem}. ".format( ** pessoa))
+print("Ola, me chamo {nome. Eu tenho {idade anos de idade, trabalho como {profissao e estou matriculado no curso de linguagem.")
 
 
 #f string
@@ -30,7 +29,7 @@ como {profissao} e estou matriculado no curso de {linguagem}.")
 
 PI = 3.14159
 
-print(f"Valor de PI: {PI :. 2f}")
+print(f"Valor de PI: {PI :.2f}")
 
 print(f"Valor de PI: {PI:10.2f}")
 
