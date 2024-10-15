@@ -23,3 +23,5 @@ Bicicleta.correr(bicicleta1) # -> E o mesmo, funciona para referenciar o mesmo o
 bicicleta1.parar()           # -> E o mesmo, funciona para referenciar o mesmo objeto (self)
 bicicleta1.buzinar()
 print(bicicleta1.cor,bicicleta1.ano,bicicleta1.modelo,bicicleta1.valor)
+
+print("cambie")
