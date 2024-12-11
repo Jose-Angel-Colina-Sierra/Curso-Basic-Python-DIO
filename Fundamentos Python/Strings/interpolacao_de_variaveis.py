@@ -6,7 +6,7 @@ profissao = "Progamador"
 linguagem = "Python"
 saldo = 45.435
 
-print("Ola, me chamo %s. Eu tenho %d anos de idade, trabalho como %s e estou matriculado no curso de %s." % (nome, idade, profissao, linguagem))
+print("Ola, me chamo %s. Eu tenho %d anos de idade, trabalho como %s e estou matriculado no curso de %s."(nome, idade, profissao, linguagem))
 
 #.format
 
