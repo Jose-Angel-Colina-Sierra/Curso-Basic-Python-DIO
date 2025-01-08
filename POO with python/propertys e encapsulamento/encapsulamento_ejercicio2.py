@@ -6,3 +6,8 @@ class Conta():
         pass
     def sacar(self):
         pass
+
+
+conta = Conta(100)
+
+print(conta._saldo)
