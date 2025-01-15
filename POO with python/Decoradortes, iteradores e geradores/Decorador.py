@@ -1,0 +1,12 @@
+def meu_decorador(funcao):  
+    def envelope():
+        print("Faz algo antes de executar")
+        funcao()
+        print("Faz algo despois de executar")
+    return envelope
+
+@meu_decorador
+def ola_mundo():
+    print("Ola mundo")
+
+ola_mundo()
